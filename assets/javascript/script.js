@@ -17,3 +17,4 @@ var studentID = studentName + pets + funActivity + sexyMan
 console.log(studentID)
 
 
+Math.floor(math.random())
