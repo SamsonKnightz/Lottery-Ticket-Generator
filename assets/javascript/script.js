@@ -49,19 +49,31 @@
 
 // Here are some arrays that I have been messing around with
 
-const people = ["Sam","Josh", "Lippy", "Nippy", "Sippy"]
+// const people = ["Sam","Josh", "Lippy", "Nippy", "Sippy"]
 
-if (people[0] === "Sam") {
-    console.log("This is Sam")
-}
+// if (people[0] === "Sam") {
+//     console.log("This is Sam")
+// }
 // Here the people[0] is index of 0 which is Sam
 
-people[0] = "Kippy"
+// people[0] = "Kippy"
 
-if (people[0] === "Kippy") {
-    console.log("This is Kippy")
-}
+// if (people[0] === "Kippy") {
+//     console.log("This is Kippy")
+// }
 
 // Here I used array to call and change the first name of Index of 0. Then I put
 // it in a "IF" statement, then to console log "This is Kippy" if the statement is 
 // true
+
+// let randomPeople = [ "Samson", ""]
+
+let number = [1, 2, 3, 4];
+
+let multiply = [1, 2, 3, 4];
+
+let aNewArray = number.concat(multiply);
+
+console.log(aNewArray);
+
+// Here we used concat to concat both array into a new variable
