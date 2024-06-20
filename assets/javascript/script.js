@@ -23,14 +23,45 @@
 
 // // Math.floor(math.random())
 
-const number = prompt("Enter a number 1-4")
+// const number = prompt("Enter a number 1-4")
 
-if (number == 1){
-    console.log ("yes");
-    }
-    else if (number == 2) {
-        console.log("heck yes!");
-    }
-    else {(number === 4);
-        console.log("heckyyy")
-    }
+// if (number == 1){
+//     console.log ("yes");
+//     }
+//     else if (number == 2) {
+//         console.log("heck yes!");
+//     }
+//     else {(number === 4);
+//         console.log("heckyyy")
+//     }
+
+// const randomNumber = prompt("Enter a random number")
+
+// if (randomNumber == 1){
+//     console.log("great job you created a random number")
+// }
+// else if( randomNumber == 2){
+//     console.log("You picked a random number")
+// }
+// else ( randomNumber == 3);{
+//     console.log("noice")
+// }
+
+// Here are some arrays that I have been messing around with
+
+const people = ["Sam","Josh", "Lippy", "Nippy", "Sippy"]
+
+if (people[0] === "Sam") {
+    console.log("This is Sam")
+}
+// Here the people[0] is index of 0 which is Sam
+
+people[0] = "Kippy"
+
+if (people[0] === "Kippy") {
+    console.log("This is Kippy")
+}
+
+// Here I used array to call and change the first name of Index of 0. Then I put
+// it in a "IF" statement, then to console log "This is Kippy" if the statement is 
+// true
