@@ -68,12 +68,20 @@
 
 // let randomPeople = [ "Samson", ""]
 
-let number = [1, 2, 3, 4];
+// let number = [1, 2, 3, 4];
 
-let multiply = [1, 2, 3, 4];
+// let multiply = [1, 2, 3, 4];
 
-let aNewArray = number.concat(multiply);
+// let aNewArray = number.concat(multiply);
 
-console.log(aNewArray);
+// console.log(aNewArray);
 
 // Here we used concat to concat both array into a new variable
+
+
+let colors = ["Red", "Green", "Purple"]
+
+colors.splice(1,0, "Grey")
+console.log(colors)
+
+// Here we use the splice method to splice into an array and add another objects
