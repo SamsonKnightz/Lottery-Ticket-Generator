@@ -107,6 +107,9 @@ var store = {Name: "Walmart",
 }
 
 console.log(store)
+console.log(store.Name)
+console.log(store.Price)
+console.log(store.Item)
 
 // Here we are able to give an variable an object literal that contains objects and
 // arrays
