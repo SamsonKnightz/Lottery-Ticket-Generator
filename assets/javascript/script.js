@@ -117,3 +117,10 @@ console.log(newStore)
 
 // Here we are able to give an variable an object literal that contains objects and
 // arrays
+
+
+for (let i = 0; i <=10; i++) {
+    console.log(i)
+}
+
+// here we wrote a for loop. a loop that continues to loop untill it reaches 10.
