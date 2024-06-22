@@ -106,10 +106,14 @@ var store = {Name: "Walmart",
 
 }
 
-console.log(store)
-console.log(store.Name)
-console.log(store.Price)
-console.log(store.Item)
+// console.log(store)
+// console.log(store.Name)
+// console.log(store.Price)
+// console.log(store.Item)
+const newStore = `${store.Name}, ${store.Price}, ${store.Item[1]}`
+// Here we are able to call objects out in a new const variable.
+console.log(newStore)
+
 
 // Here we are able to give an variable an object literal that contains objects and
 // arrays
