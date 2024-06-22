@@ -79,23 +79,34 @@
 // Here we used concat to concat both array into a new variable
 
 
-let colors = ["Red", "Green", "Purple"]
+// let colors = ["Red", "Green", "Purple"]
 
-colors.splice(1,0, "Grey")
-console.log(colors)
+// colors.splice(1,0, "Grey")
+// console.log(colors)
 
-// Here we use the splice method to splice into an array and add another objects
+// // Here we use the splice method to splice into an array and add another objects
 
-let peopleStudents = [
-    ["Sam", "Bam", "Pam"],
-    ["Tam", "Clam","Sham"],
-    ["Sippy", "Pippy","Nippy"]
-]
+// let peopleStudents = [
+//     ["Sam", "Bam", "Pam"],
+//     ["Tam", "Clam","Sham"],
+//     ["Sippy", "Pippy","Nippy"]
+// ]
 
-// here we have an array of peopleStudents. We will input another variable in the
-// array. We inserted "Ham", into index array of 1 at position 3. All index's start
-// with 0.
+// // here we have an array of peopleStudents. We will input another variable in the
+// // array. We inserted "Ham", into index array of 1 at position 3. All index's start
+// // with 0.
 
-peopleStudents [1][3] = "Ham"
+// peopleStudents [1][3] = "Ham"
 
-console.log(peopleStudents)
+// console.log(peopleStudents)
+
+var store = {Name: "Walmart", 
+            Price: "$1.99", 
+            Item: ["Fruits", "Vegitables", "Meats"]
+
+}
+
+console.log(store)
+
+// Here we are able to give an variable an object literal that contains objects and
+// arrays
