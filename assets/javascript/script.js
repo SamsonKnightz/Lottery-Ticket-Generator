@@ -100,27 +100,37 @@
 
 // console.log(peopleStudents)
 
-var store = {Name: "Walmart", 
-            Price: "$1.99", 
-            Item: ["Fruits", "Vegitables", "Meats"]
+// var store = {Name: "Walmart", 
+//             Price: "$1.99", 
+//             Item: ["Fruits", "Vegitables", "Meats"]
 
-}
+// }
 
 // console.log(store)
 // console.log(store.Name)
 // console.log(store.Price)
 // console.log(store.Item)
-const newStore = `${store.Name}, ${store.Price}, ${store.Item[1]}`
-// Here we are able to call objects out in a new const variable.
-console.log(newStore)
+// const newStore = `${store.Name}, ${store.Price}, ${store.Item[1]}`
+// // Here we are able to call objects out in a new const variable.
+// console.log(newStore)
 
 
 // Here we are able to give an variable an object literal that contains objects and
 // arrays
 
 
-for (let i = 0; i <=10; i++) {
-    console.log(i)
-}
+// for (let i = 0; i <=10; i++) {
+//     console.log(i)
+// }
 
 // here we wrote a for loop. a loop that continues to loop untill it reaches 10.
+
+// for ( let i = 0; i < 6; i++){
+//     console.log("Da ba dee da ba daa")
+// }
+
+// for (let i = 100; i > 0; i -= 10) {
+//     console.log(i)
+// }
+
+// This for loop counts down by 10, starting with 100.
