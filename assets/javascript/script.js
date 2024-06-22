@@ -85,3 +85,17 @@ colors.splice(1,0, "Grey")
 console.log(colors)
 
 // Here we use the splice method to splice into an array and add another objects
+
+let peopleStudents = [
+    ["Sam", "Bam", "Pam"],
+    ["Tam", "Clam","Sham"],
+    ["Sippy", "Pippy","Nippy"]
+]
+
+// here we have an array of peopleStudents. We will input another variable in the
+// array. We inserted "Ham", into index array of 1 at position 3. All index's start
+// with 0.
+
+peopleStudents [1][3] = "Ham"
+
+console.log(peopleStudents)
