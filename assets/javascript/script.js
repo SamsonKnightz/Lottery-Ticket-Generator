@@ -1,7 +1,13 @@
-// var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate");
+var generate = ""
+const ranNum = "0123456789"
 // //we use the a define variable of generateBtn
 // // to create a query selecctor on the generate button.
 // //The generate button is selected by the ID.
+
+for ( let i = 0; i <=10; i++){
+    generate = generate + ranNum
+}
 
 
 // //Here is what I learned today, that could be logged into the console.
@@ -134,3 +140,4 @@
 // }
 
 // This for loop counts down by 10, starting with 100.
+
