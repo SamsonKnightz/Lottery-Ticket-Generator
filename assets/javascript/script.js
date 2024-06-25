@@ -164,11 +164,14 @@ const students = [
     ["Jessica","Samantha","Dana","Edna"]
 ]
 
-for ( stu of students){
-    console.log(stu)
+
+for( let row of students){
+    for(let stu of row){
+        console.log(stu)
+    }
+
 }
 
-console.log(students)
 
 
 // for(let i = 0; i < students.length; i++){
