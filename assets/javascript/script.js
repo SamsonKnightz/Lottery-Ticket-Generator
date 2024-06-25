@@ -154,20 +154,33 @@
 // }
 // here we console.log 
 
-const students = [
-    ["Jasmine", "Tiny", "John", "Skippy"],
-    ["Halo", "Kimberly", "Ashley", "Laura"],
-    ["Jessica","Samantha","Dana","Edna"]
-]
+// const students = [
+//     ["Jasmine", "Tiny", "John", "Skippy"],
+//     ["Halo", "Kimberly", "Ashley", "Laura"],
+//     ["Jessica","Samantha","Dana","Edna"]
+// ]
 
-for(let i = 0; i < students.length; i++){
-    const row = students[i];
-    console.log(`row #${i + 1}`)
-    for (let j = 0; j < row.length; j++){
-        console.log(row[j])
-    }
-}
+// for(let i = 0; i < students.length; i++){
+//     const row = students[i];
+//     console.log(`row #${i + 1}`)
+//     for (let j = 0; j < row.length; j++){
+//         console.log(row[j])
+//     }
+// }
 
 // Here we have 3 arrays with 4 objects. We wanted to print out all of the names.
 // So we make a for loop to loop through the array, then make another const for each rows in the array, then print out the new variable of J.
 // We added a console log for each row by using template literal and calling the object of i, then incrementing + 1
+
+const SECRET = "Baby Llamas"
+
+let guess = prompt("Guess the secret code")
+while(guess != SECRET){
+    guess = prompt("Guess the secret code")
+}
+console.log("YAYYY!")
+
+// Here we create a secret code of Baby Llamas. Then we let the guess come with a prompt.
+// We then use a "WHILE" loop, that if the guess is not equal to the secret, the prompt will continue to come up.
+// If the code "IS" typed in correctly into the prompt, then it will console log "YAYYY!"
+
