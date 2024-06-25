@@ -162,6 +162,7 @@ const students = [
 
 for(let i = 0; i < students.length; i++){
     const row = students[i];
+    console.log(`row #${i + 1}`)
     for (let j = 0; j < row.length; j++){
         console.log(row[j])
     }
@@ -169,4 +170,4 @@ for(let i = 0; i < students.length; i++){
 
 // Here we have 3 arrays with 4 objects. We wanted to print out all of the names.
 // So we make a for loop to loop through the array, then make another const for each rows in the array, then print out the new variable of J.
-
+// We added a console log for each row by using template literal and calling the object of i, then incrementing + 1
