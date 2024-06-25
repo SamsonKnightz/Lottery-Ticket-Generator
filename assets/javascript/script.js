@@ -5,6 +5,12 @@
 // // // to create a query selecctor on the generate button.
 // // //The generate button is selected by the ID.
 
+// let ranNum = "0123456789"
+
+// const ranNum = Math.floor(Math.random() * 10) + 1 
+// // This is a random number of 1-10
+// console.log(ranNum)
+
 // for ( let i = 0; i < 10 -1; i++){
 //     generate = generate + ranNum
 // }
@@ -21,8 +27,6 @@
 // //we console logged the studentname, number of pets, and a fun activity
 
 // console.log(studentID)
-
-// let ranNum = "0123456789"
 
 // if (ranNum === "0,1,2,3,4,5,6,7,8,9,0,10")
 //     {console.log (${ranNum})}
@@ -154,11 +158,18 @@
 // }
 // here we console.log 
 
-// const students = [
-//     ["Jasmine", "Tiny", "John", "Skippy"],
-//     ["Halo", "Kimberly", "Ashley", "Laura"],
-//     ["Jessica","Samantha","Dana","Edna"]
-// ]
+const students = [
+    ["Jasmine", "Tiny", "John", "Skippy"],
+    ["Halo", "Kimberly", "Ashley", "Laura"],
+    ["Jessica","Samantha","Dana","Edna"]
+]
+
+for ( stu of students){
+    console.log(stu)
+}
+
+console.log(students)
+
 
 // for(let i = 0; i < students.length; i++){
 //     const row = students[i];
@@ -172,13 +183,13 @@
 // So we make a for loop to loop through the array, then make another const for each rows in the array, then print out the new variable of J.
 // We added a console log for each row by using template literal and calling the object of i, then incrementing + 1
 
-const SECRET = "Baby Llamas"
+// const SECRET = "Baby Llamas"
 
-let guess = prompt("Guess the secret code")
-while(guess != SECRET){
-    guess = prompt("Guess the secret code")
-}
-console.log("YAYYY!")
+// let guess = prompt("Guess the secret code")
+// while(guess != SECRET){
+//     guess = prompt("Guess the secret code")
+// }
+// console.log("YAYYY!")
 
 // Here we create a secret code of Baby Llamas. Then we let the guess come with a prompt.
 // We then use a "WHILE" loop, that if the guess is not equal to the secret, the prompt will continue to come up.
