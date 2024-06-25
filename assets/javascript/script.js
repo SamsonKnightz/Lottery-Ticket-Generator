@@ -1,13 +1,13 @@
-var generateBtn = document.querySelector("#generate");
-var generate = ""
-const ranNum = "0123456789"
-// //we use the a define variable of generateBtn
-// // to create a query selecctor on the generate button.
-// //The generate button is selected by the ID.
+// var generateBtn = document.querySelector("#generate");
+// const generate = ""
+// const ranNum = "0123456789"
+// // //we use the a define variable of generateBtn
+// // // to create a query selecctor on the generate button.
+// // //The generate button is selected by the ID.
 
-for ( let i = 0; i <=10; i++){
-    generate = generate + ranNum
-}
+// for ( let i = 0; i < 10 -1; i++){
+//     generate = generate + ranNum
+// }
 
 
 // //Here is what I learned today, that could be logged into the console.
@@ -140,4 +140,33 @@ for ( let i = 0; i <=10; i++){
 // }
 
 // This for loop counts down by 10, starting with 100.
+
+// const animals = [ `lions`, `tigers`, `bears`];
+
+// // for (let i = 1; i < animals.length; I++) {
+// //     console.log(i, animals[i].toUpperCase());
+// // }
+// // This for loop loops and prints through the array of animals.
+// // (.toUpperCase()); Will make all objects in an array capitalized.
+
+// for (let i = 0; i < animals.length; i++){
+//     console.log(`I love: ${animals}`)
+// }
+// here we console.log 
+
+const students = [
+    ["Jasmine", "Tiny", "John", "Skippy"],
+    ["Halo", "Kimberly", "Ashley", "Laura"],
+    ["Jessica","Samantha","Dana","Edna"]
+]
+
+for(let i = 0; i < students.length; i++){
+    const row = students[i];
+    for (let j = 0; j < row.length; j++){
+        console.log(row[j])
+    }
+}
+
+// Here we have 3 arrays with 4 objects. We wanted to print out all of the names.
+// So we make a for loop to loop through the array, then make another const for each rows in the array, then print out the new variable of J.
 
