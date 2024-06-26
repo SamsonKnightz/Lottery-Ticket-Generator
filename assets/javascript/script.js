@@ -158,19 +158,36 @@
 // }
 // here we console.log 
 
-const students = [
-    ["Jasmine", "Tiny", "John", "Skippy"],
-    ["Halo", "Kimberly", "Ashley", "Laura"],
-    ["Jessica","Samantha","Dana","Edna"]
+// const students = [
+//     ["Jasmine", "Tiny", "John", "Skippy"],
+//     ["Halo", "Kimberly", "Ashley", "Laura"],
+//     ["Jessica","Samantha","Dana","Edna"]
+// ]
+
+
+// for( let row of students){
+//     for(let stu of row){
+//         console.log(stu)
+//     }
+
+// }
+
+const cars = [
+    ["Audi", "Volkswagen", "Bugatti"],
+    ["Honda", "Toyota", "Lexus"],
+    ["Ford", "Chevy", "Dodge"]
 ]
 
-
-for( let row of students){
-    for(let stu of row){
-        console.log(stu)
+for (let row of cars){
+    for(let make of row){
+        console.log(make)
     }
-
 }
+
+
+prompt = "Please select a car"
+
+
 
 
 
