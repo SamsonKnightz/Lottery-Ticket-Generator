@@ -184,6 +184,11 @@
 //     }
 // }
 
+
+// Here we iterate over objects.
+// We use Object.values(const) to get the values of each objects.
+// We then could use this to get the average, by console loggin total divided
+// by the new "Powers" created by using Object.values(carPower)
 const carPower = {
     Honda:80,
     Toyota:75,
@@ -192,10 +197,15 @@ const carPower = {
     Mercedes:75
 }
 
-for (let car in carPower) {
-    console.log(`${car} horsepower ${carPower[car]}`)
+// for (let car in carPower) {
+//     console.log(`${car} horsepower ${carPower[car]}`)
+// }
+let total = 0;
+let powers = Object.values(carPower)
+for(let power of powers) {
+    total += power;
 }
-
+console.log(total / powers.length)
 
 // for(let i = 0; i < students.length; i++){
 //     const row = students[i];
