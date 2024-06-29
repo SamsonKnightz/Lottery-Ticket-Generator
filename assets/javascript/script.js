@@ -172,23 +172,29 @@
 
 // }
 
-const cars = [
-    ["Audi", "Volkswagen", "Bugatti"],
-    ["Honda", "Toyota", "Lexus"],
-    ["Ford", "Chevy", "Dodge"]
-]
+// const cars = [
+//     ["Audi", "Volkswagen", "Bugatti"],
+//     ["Honda", "Toyota", "Lexus"],
+//     ["Ford", "Chevy", "Dodge"]
+// ]
 
-for (let row of cars){
-    for(let make of row){
-        console.log(make)
-    }
+// for (let row of cars){
+//     for(let make of row){
+//         console.log(make)
+//     }
+// }
+
+const carPower = {
+    Honda:80,
+    Toyota:75,
+    Volkswagen:90,
+    Audi:95,
+    Mercedes:75
 }
 
-
-prompt = "Please select a car"
-
-
-
+for (let car in carPower) {
+    console.log(`${car} horsepower ${carPower[car]}`)
+}
 
 
 // for(let i = 0; i < students.length; i++){
