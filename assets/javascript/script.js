@@ -230,9 +230,15 @@ const todos = [`Dishes`, `Laundery`];
 while (input !== `quit` && input !== `q`) {
   if (input == `list`) {
     console.log(`999999999999999999`)
-    for(let i = 0; i < todos.length; i++)
-        console.log(`${i}: ${todos[i]}`)
-  }
-  input = prompt("What would you like to do?");
-}
+    for (let i = 0; i < todos.length; i++) {
+            console.log(`${i}: ${todos[i]}`);
+    }
+            console.log(`999999999999999`)
+     } else if (input === `new`) {
+            const newToDo = prompt(`Ok, what is the new to do?`)
+            todos.push(newToDo);
+            console.log(`${newToDo} added to the list`)
+        }
+        input = prompt("What would you like to do?");
+    }
 console.log("Ok quit the app!");
