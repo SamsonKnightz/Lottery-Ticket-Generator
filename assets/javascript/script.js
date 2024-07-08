@@ -7,14 +7,13 @@
 
 // let ranNum = "0123456789"
 
-// const ranNum = Math.floor(Math.random() * 10) + 1 
+// const ranNum = Math.floor(Math.random() * 10) + 1
 // // This is a random number of 1-10
 // console.log(ranNum)
 
 // for ( let i = 0; i < 10 -1; i++){
 //     generate = generate + ranNum
 // }
-
 
 // //Here is what I learned today, that could be logged into the console.
 // var studentName = "Samson" //This is a string
@@ -73,7 +72,7 @@
 // }
 
 // Here I used array to call and change the first name of Index of 0. Then I put
-// it in a "IF" statement, then to console log "This is Kippy" if the statement is 
+// it in a "IF" statement, then to console log "This is Kippy" if the statement is
 // true
 
 // let randomPeople = [ "Samson", ""]
@@ -87,7 +86,6 @@
 // console.log(aNewArray);
 
 // Here we used concat to concat both array into a new variable
-
 
 // let colors = ["Red", "Green", "Purple"]
 
@@ -110,8 +108,8 @@
 
 // console.log(peopleStudents)
 
-// var store = {Name: "Walmart", 
-//             Price: "$1.99", 
+// var store = {Name: "Walmart",
+//             Price: "$1.99",
 //             Item: ["Fruits", "Vegitables", "Meats"]
 
 // }
@@ -124,10 +122,8 @@
 // // Here we are able to call objects out in a new const variable.
 // console.log(newStore)
 
-
 // Here we are able to give an variable an object literal that contains objects and
 // arrays
-
 
 // for (let i = 0; i <=10; i++) {
 //     console.log(i)
@@ -156,14 +152,13 @@
 // for (let i = 0; i < animals.length; i++){
 //     console.log(`I love: ${animals}`)
 // }
-// here we console.log 
+// here we console.log
 
 // const students = [
 //     ["Jasmine", "Tiny", "John", "Skippy"],
 //     ["Halo", "Kimberly", "Ashley", "Laura"],
 //     ["Jessica","Samantha","Dana","Edna"]
 // ]
-
 
 // for( let row of students){
 //     for(let stu of row){
@@ -183,7 +178,6 @@
 //         console.log(make)
 //     }
 // }
-
 
 // Here we iterate over objects.
 // We use Object.values(const) to get the values of each objects.
@@ -231,10 +225,14 @@
 // We then use a "WHILE" loop, that if the guess is not equal to the secret, the prompt will continue to come up.
 // If the code "IS" typed in correctly into the prompt, then it will console log "YAYYY!"
 
-
-
-let input = prompt("What would you like to do?")
-while(input !== `quit`){
-    input = prompt("What would you like to do?")
+let input = prompt("What would you like to do?");
+const todos = [`Dishes`, `Laundery`];
+while (input !== `quit` && input !== `q`) {
+  if (input == `list`) {
+    console.log(`999999999999999999`)
+    for(let i = 0; i < todos.length; i++)
+        console.log(`${i}: ${todos[i]}`)
+  }
+  input = prompt("What would you like to do?");
 }
-console.log("Ok quit the app!")
+console.log("Ok quit the app!");
