@@ -189,23 +189,23 @@
 // We use Object.values(const) to get the values of each objects.
 // We then could use this to get the average, by console loggin total divided
 // by the new "Powers" created by using Object.values(carPower)
-const carPower = {
-    Honda:80,
-    Toyota:75,
-    Volkswagen:90,
-    Audi:95,
-    Mercedes:75
-}
-
-// for (let car in carPower) {
-//     console.log(`${car} horsepower ${carPower[car]}`)
+// const carPower = {
+//     Honda:80,
+//     Toyota:75,
+//     Volkswagen:90,
+//     Audi:95,
+//     Mercedes:75
 // }
-let total = 0;
-let powers = Object.values(carPower)
-for(let power of powers) {
-    total += power;
-}
-console.log(total / powers.length)
+
+// // for (let car in carPower) {
+// //     console.log(`${car} horsepower ${carPower[car]}`)
+// // }
+// let total = 0;
+// let powers = Object.values(carPower)
+// for(let power of powers) {
+//     total += power;
+// }
+// console.log(total / powers.length)
 
 // for(let i = 0; i < students.length; i++){
 //     const row = students[i];
@@ -231,3 +231,10 @@ console.log(total / powers.length)
 // We then use a "WHILE" loop, that if the guess is not equal to the secret, the prompt will continue to come up.
 // If the code "IS" typed in correctly into the prompt, then it will console log "YAYYY!"
 
+
+
+let input = prompt("What would you like to do?")
+while(input !== `quit`){
+    input = prompt("What would you like to do?")
+}
+console.log("Ok quit the app!")
