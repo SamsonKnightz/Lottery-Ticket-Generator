@@ -229,15 +229,17 @@ let input = prompt("What would you like to do?");
 const todos = [`Dishes`, `Laundery`];
 while (input !== `quit` && input !== `q`) {
   if (input == `list`) {
-    console.log(`999999999999999999`)
     for (let i = 0; i < todos.length; i++) {
             console.log(`${i}: ${todos[i]}`);
     }
-            console.log(`999999999999999`)
      } else if (input === `new`) {
             const newToDo = prompt(`Ok, what is the new to do?`)
             todos.push(newToDo);
             console.log(`${newToDo} added to the list`)
+        } else if (input === `delete`){
+            const index = prompt(`Ok, enter an index to delete`)
+            const deleted = todos.splice(index, 1)
+            console.log(`Ok, deleted ${deleted[0]}`)
         }
         input = prompt("What would you like to do?");
     }
