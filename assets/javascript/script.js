@@ -255,5 +255,17 @@ function singSong(){
     console.log("Re");
     console.log("Me");
 }
+singSong()
+
+function greet(firstName, lastName){
+    console.log(`Hey there ${firstName} ${lastName[0]}!`)
+}
+
+greet(`Samson`, `Vang`)
+
+
+
+
+
 
 }, 200)
