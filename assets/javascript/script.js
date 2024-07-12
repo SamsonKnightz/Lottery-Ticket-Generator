@@ -250,21 +250,28 @@ setTimeout(function() {
 
 // We created a to-do list application above by using while, else if, and for loops.
 
-function singSong(){
-    console.log("Do");
-    console.log("Re");
-    console.log("Me");
-}
-singSong()
+// function singSong(){
+//     console.log("Do");
+//     console.log("Re");
+//     console.log("Me");
+// }
+// singSong()
 
-function greet(firstName, lastName){
-    console.log(`Hey there ${firstName} ${lastName[0]}!`)
-}
+// function greet(firstName, lastName){
+//     console.log(`Hey there ${firstName} ${lastName[0]}!`)
+// }
 
-greet(`Samson`, `Vang`)
+// greet(`Samson`, `Vang`)
 
+function isSnakeEyes (die1, die2) {
+    if (die1 === 1 && die2 === 1) {
+        console.log("Is Snake Eyes!")
+        } else if ( die1 !== 1 && die2 !== 1); {
+            console.log("Is Not Snake Eyes!")
+        }
+    }
 
-
+console.log(isSnakeEyes)
 
 
 
