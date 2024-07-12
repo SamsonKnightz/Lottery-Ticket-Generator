@@ -1,3 +1,6 @@
+setTimeout(function() {
+
+
 // var generateBtn = document.querySelector("#generate");
 // const generate = ""
 // const ranNum = "0123456789"
@@ -225,22 +228,32 @@
 // We then use a "WHILE" loop, that if the guess is not equal to the secret, the prompt will continue to come up.
 // If the code "IS" typed in correctly into the prompt, then it will console log "YAYYY!"
 
-let input = prompt("What would you like to do?");
-const todos = [`Dishes`, `Laundery`];
-while (input !== `quit` && input !== `q`) {
-  if (input == `list`) {
-    for (let i = 0; i < todos.length; i++) {
-            console.log(`${i}: ${todos[i]}`);
-    }
-     } else if (input === `new`) {
-            const newToDo = prompt(`Ok, what is the new to do?`)
-            todos.push(newToDo);
-            console.log(`${newToDo} added to the list`)
-        } else if (input === `delete`){
-            const index = prompt(`Ok, enter an index to delete`)
-            const deleted = todos.splice(index, 1)
-            console.log(`Ok, deleted ${deleted[0]}`)
-        }
-        input = prompt("What would you like to do?");
-    }
-console.log("Ok quit the app!");
+// let input = prompt("What would you like to do?");
+// const todos = [`Dishes`, `Laundery`];
+// while (input !== `quit` && input !== `q`) {
+//   if (input == `list`) {
+//     for (let i = 0; i < todos.length; i++) {
+//             console.log(`${i}: ${todos[i]}`);
+//     }
+//      } else if (input === `new`) {
+//             const newToDo = prompt(`Ok, what is the new to do?`)
+//             todos.push(newToDo);
+//             console.log(`${newToDo} added to the list`)
+//         } else if (input === `delete`){
+//             const index = prompt(`Ok, enter an index to delete`)
+//             const deleted = todos.splice(index, 1)
+//             console.log(`Ok, deleted ${deleted[0]}`)
+//         }
+//         input = prompt("What would you like to do?");
+//     }
+// console.log("Ok quit the app!");
+
+// We created a to-do list application above by using while, else if, and for loops.
+
+function singSong(){
+    console.log("Do");
+    console.log("Re");
+    console.log("Me");
+}
+
+}, 200)
